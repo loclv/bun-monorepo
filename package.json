@@ -5,6 +5,8 @@
 	"workspaces": ["apps/*", "packages/*"],
 	"scripts": {
 		"dev": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\" \"cd apps/web && bun --bun run dev\"",
+		"w": "concurrently \"cd apps/backend && bun dev\" \"cd apps/web && bun --bun run dev\"",
+		"a": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun android\" \"cd apps/web && bun --bun run dev\"",
 		"typecheck": "bunx --bun tsc",
 		"lint": "biome lint .",
 		"lint:fix": "biome lint --apply .",
