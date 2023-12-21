@@ -4,5 +4,14 @@
 	"editor.tabSize": 2,
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 }
