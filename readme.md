@@ -1,6 +1,6 @@
 # Bun monorepo
 
-This a demo of a monorepo using bun workspace.
+This a demo of a monorepo using [bun](https://bun.sh/) workspace.
 
 ## What's inside?
 
@@ -29,9 +29,7 @@ bun install
 bun dev
 ```
 
-
 ### Others scripts
-
 
 ```sh
 # type check all packages
@@ -44,4 +42,3 @@ bun format
 bun lint
 
 ```
-
