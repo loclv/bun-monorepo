@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "streetsidesoftware.code-spell-checker",
+    "DavidAnson.vscode-markdownlint",
+    "Gruntfuggly.todo-tree",
+    "mikestead.dotenv",
+    "foxundermoon.next-js",
+    "planbcoding.vscode-react-refactor",
+    "yoavbls.pretty-ts-errors",
+    "usernamehw.errorlens",
+    "biomejs.biome"
+  ]
+}
