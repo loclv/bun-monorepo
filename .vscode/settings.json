@@ -13,5 +13,9 @@
 	},
 	"[css]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"cSpell.words": [
+		"Elysia",
+		"typecheck"
+	]
 }
