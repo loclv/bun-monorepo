@@ -2,6 +2,7 @@
 	"name": "bun-monorepo",
 	"version": "0.0.1",
 	"description": "Elysia Backend + React Native + Next.js",
+	"license": "MIT",
 	"workspaces": ["apps/*", "packages/*"],
 	"scripts": {
 		"dev": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\" \"cd apps/web && bun --bun run dev\"",
@@ -17,5 +18,11 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.2.2",
 		"concurrently": "^6.2.0"
+	},
+	"engines": {
+		"npm": "Please use Bun",
+		"yarn": "Please use Bun",
+		"pnpm": "Please use Bun",
+		"bun": ">=1.0.19"
 	}
 }
