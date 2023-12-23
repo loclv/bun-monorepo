@@ -1,7 +1,7 @@
 {
-	"expo": {
-		"scheme": "acme",
-		"name": "expo-router-layouts",
-		"slug": "expo-router-layouts"
-	}
+  "expo": {
+    "scheme": "acme",
+    "name": "expo-router-layouts",
+    "slug": "expo-router-layouts"
+  }
 }
