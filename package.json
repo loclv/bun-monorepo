@@ -1,28 +1,32 @@
 {
-	"name": "bun-monorepo",
-	"version": "0.0.1",
-	"description": "Elysia Backend + React Native + Next.js",
-	"license": "MIT",
-	"workspaces": ["apps/*", "packages/*"],
-	"scripts": {
-		"dev": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\" \"cd apps/web && bun --bun run dev\"",
-		"w": "concurrently \"cd apps/backend && bun dev\" \"cd apps/web && bun --bun run dev\"",
-		"a": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun android\" \"cd apps/web && bun --bun run dev\"",
-		"ios": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\"",
-		"typecheck": "bunx --bun tsc",
-		"lint": "biome lint .",
-		"lint:fix": "biome lint --apply .",
-		"format": "biome format .",
-		"format:fix": "biome format --write ."
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.2.2",
-		"concurrently": "^6.2.0"
-	},
-	"engines": {
-		"npm": "Please use Bun",
-		"yarn": "Please use Bun",
-		"pnpm": "Please use Bun",
-		"bun": ">=1.0.19"
-	}
+  "name": "bun-monorepo",
+  "version": "0.0.1",
+  "description": "Elysia Backend + React Native + Next.js",
+  "license": "MIT",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\" \"cd apps/web && bun --bun run dev\"",
+    "w": "concurrently \"cd apps/backend && bun dev\" \"cd apps/web && bun --bun run dev\"",
+    "a": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun android\" \"cd apps/web && bun --bun run dev\"",
+    "ios": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\"",
+    "gen": "cd packages/backend-api && bun gen",
+    "migrate": "cd packages/backend-api && bun migrate",
+    "seed": "cd packages/backend-api && bun seed",
+    "typecheck": "bunx --bun tsc",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --apply .",
+    "format": "biome format .",
+    "format:fix": "biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.2.2",
+    "@types/bun": "^1.0.4",
+    "concurrently": "^6.2.0"
+  },
+  "engines": {
+    "npm": "Please use Bun",
+    "yarn": "Please use Bun",
+    "pnpm": "Please use Bun",
+    "bun": ">=1.0.25"
+  }
 }

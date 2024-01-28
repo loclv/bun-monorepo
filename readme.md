@@ -25,7 +25,7 @@ This monorepo has some additional tools already setup for you:
 To install and start developing all apps, run the following command:
 
 ```sh
-bun install
+bun i
 bun dev
 ```
 

@@ -9,6 +9,7 @@
     "planbcoding.vscode-react-refactor",
     "yoavbls.pretty-ts-errors",
     "usernamehw.errorlens",
-    "biomejs.biome"
+    "biomejs.biome",
+    "oven.bun-vscode"
   ]
 }
