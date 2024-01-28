@@ -25,9 +25,14 @@ This monorepo has some additional tools already setup for you:
 To install and start developing all apps, run the following command:
 
 ```sh
+# upgrade bun version
+bun upgrade
+
 bun i
 bun dev
 ```
+
+For more information, see the `package.json` file.
 
 DB migration:
 
