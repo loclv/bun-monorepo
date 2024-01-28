@@ -28,5 +28,6 @@
     "yarn": "Please use Bun",
     "pnpm": "Please use Bun",
     "bun": ">=1.0.25"
-  }
+  },
+  "private": true
 }
