@@ -29,6 +29,14 @@ bun i
 bun dev
 ```
 
+DB migration:
+
+```bash
+bun gen
+bun migrate
+bun seed
+```
+
 ### Others scripts
 
 ```sh

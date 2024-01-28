@@ -70,7 +70,7 @@ Generated command's output is below.
 
 >[✓] Your SQL migration file ➜ drizzle/0000_talented_smasher.sql 🚀
 
-### Troubleshooting
+### Troubleshooting when generating the SQL migration
 
 If you have an error when generating the SQL migration:
 
@@ -263,8 +263,47 @@ process.exit(0)
 To run seeding:
 
 ```bash
-bun migrate
+bun seed
 ```
+
+## Commands Summary
+
+```bash
+bun gen
+bun migrate
+bun seed
+```
+
+### Troubleshooting
+
+When you see an error about `tsconfig.json`, you can use the configuration below:
+
+```json
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ESNext",
+    "lib": ["DOM"],
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}
+```
+
+You also can use the runnable project: <https://github.com/loclv/bun-monorepo>.
 
 ## References
 
