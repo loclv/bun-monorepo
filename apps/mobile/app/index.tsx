@@ -1,10 +1,10 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native'
-import { api } from 'backend-api'
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { api } from 'backend-api';
 
 async function load() {
   api['hello-world'].get().then((res) => {
-    console.log('Response from backend', res.data)
-  })
+    console.log('Response from backend', res.data);
+  });
 }
 
 export default function Page() {
@@ -19,7 +19,7 @@ export default function Page() {
         </Pressable>
       </View>
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -53,4 +53,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#38434D',
   },
-})
+});

@@ -1,5 +1,5 @@
-import { db } from './src/db'
-import { products } from './src/db/schema/products'
+import { db } from './src/db';
+import { products } from './src/db/schema/products';
 
 await db.insert(products).values([
   {
@@ -20,9 +20,9 @@ await db.insert(products).values([
     description: 'C description',
     price: 11,
   },
-])
+]);
 
-console.log('Seeding complete. 🌟')
+console.log('Seeding complete. 🌟');
 
 // DONE
-process.exit(0)
+process.exit(0);
