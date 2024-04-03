@@ -2,6 +2,7 @@
   "name": "bun-monorepo",
   "version": "0.0.1",
   "description": "Elysia Backend + React Native + Next.js",
+  "keywords": ["elysia-js", "react", "next-js", "react-native", "drizzle", "elysia", "eden", "postgresql"],
   "license": "MIT",
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
