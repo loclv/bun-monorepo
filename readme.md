@@ -2,7 +2,7 @@
 
 This a demo of a monorepo using [bun](https://bun.sh/) workspace.
 
-## What's inside?
+## 🏕️ What's inside?
 
 This monorepo includes the following packages/apps:
 
@@ -11,7 +11,7 @@ This monorepo includes the following packages/apps:
 - `backend`: [Elysia.js](https://elysiajs.com/) app
 - `web`: [Next.js](https://nextjs.org/) app
 - `mobile`:  React Native [Expo](https://expo.dev/) + expo-router
-- `backend-api`: a shared end-to-end type safety package.
+- `backend-api`: [Eden](https://elysiajs.com/eden/overview.html) a shared end-to-end type safety package.
 
 ### Utilities
 
@@ -20,7 +20,7 @@ This monorepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [Biome.js](https://biomejs.dev/) for code formatting and linting. It is recommended to install the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
 
-### Getting Started
+## 🌱 Getting Started
 
 To install and start developing all apps, run the following command:
 
@@ -42,7 +42,7 @@ bun migrate
 bun seed
 ```
 
-### Others scripts
+## 🌳 Others scripts
 
 ```sh
 # type check all packages
