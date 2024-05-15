@@ -42,6 +42,8 @@ bun migrate
 bun seed
 ```
 
+Tested with Bun `1.1.8`.
+
 ## 🌳 Others scripts
 
 ```sh
