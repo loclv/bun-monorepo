@@ -1,6 +1,6 @@
 # Bun monorepo
 
-This a demo of a monorepo using [bun](https://bun.sh/) workspace.
+This a demo of a monorepo using Bun + Elysia.js + Next.js + React Native Expo + Drizzle ORM.
 
 ## 🏕️ What's inside?
 
@@ -8,10 +8,22 @@ This monorepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `backend`: [Elysia.js](https://elysiajs.com/) app
-- `web`: [Next.js](https://nextjs.org/) app
-- `mobile`:  React Native [Expo](https://expo.dev/) + expo-router
-- `backend-api`: [Eden](https://elysiajs.com/eden/overview.html) a shared end-to-end type safety package.
+- JavaScript runtime:
+  - [bun](https://bun.sh/)
+
+- `backend`:
+  - [Elysia.js](https://elysiajs.com/)
+  - [Drizzle ORM](https://orm.drizzle.team/)
+
+- `web`:
+  - [Next.js](https://nextjs.org/)
+
+- `mobile`:
+  - React Native [Expo](https://expo.dev/)
+  - [expo-router](https://docs.expo.dev/router/introduction/)
+
+- `backend-api`:
+  - [Eden](https://elysiajs.com/eden/overview.html) a shared end-to-end type safety package.
 
 ### Utilities
 
