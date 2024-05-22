@@ -1,6 +1,6 @@
 # Bun monorepo
 
-This a demo of a monorepo using Bun + Elysia.js + Next.js + React Native Expo + Drizzle ORM.
+A demo of a monorepo using Bun + Elysia.js + Next.js + React Native Expo + Drizzle ORM.
 
 ## 🏕️ What's inside?
 
