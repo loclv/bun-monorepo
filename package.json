@@ -28,7 +28,8 @@
     "npm": "Please use Bun",
     "yarn": "Please use Bun",
     "pnpm": "Please use Bun",
-    "bun": ">=1.1.9"
+    "bun": ">=1.1.9",
+    "node": ">=20"
   },
   "private": true
 }

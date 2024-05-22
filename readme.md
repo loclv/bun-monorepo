@@ -58,10 +58,22 @@ bun lint
 
 ```
 
+### npm-check-updates
+
 Use [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) upgrades your package.json dependencies to the latest versions, ignoring specified versions.
 
 `-ws` flag means that `Run on all workspaces. Add --root to also upgrade the root project.`.
 
 ```sh
 bunx npm-check-updates -i -ws
+```
+
+If you see a error below, please try upgrading your Node.js version to the latest version.
+
+```txt
+internal/modules/cjs/loader.js:888
+  throw err;
+  ^
+
+Error: Cannot find module 'node:path'
 ```
