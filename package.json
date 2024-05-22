@@ -1,9 +1,5 @@
 {
   "name": "bun-monorepo-elysia-react-native-expo-nextjs-drizzle",
-  "version": "0.0.1",
-  "description": "monorepo using Bun + Elysia.js + Next.js + React Native Expo + Drizzle ORM",
-  "keywords": ["elysia-js", "react", "next-js", "react-native", "expo", "drizzle", "elysia", "eden", "postgresql"],
-  "license": "MIT",
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
     "dev": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\" \"cd apps/web && bun --bun run dev\"",
@@ -31,5 +27,9 @@
     "bun": ">=1.1.9",
     "node": ">=20"
   },
+  "version": "0.0.1",
+  "description": "monorepo using Bun + Elysia.js + Next.js + React Native Expo + Drizzle ORM",
+  "keywords": ["elysia-js", "react", "next-js", "react-native", "expo", "drizzle", "elysia", "eden", "postgresql"],
+  "license": "MIT",
   "private": true
 }
