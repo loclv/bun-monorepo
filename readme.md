@@ -57,3 +57,11 @@ bun format
 bun lint
 
 ```
+
+Use [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) upgrades your package.json dependencies to the latest versions, ignoring specified versions.
+
+`-ws` flag means that `Run on all workspaces. Add --root to also upgrade the root project.`.
+
+```sh
+bunx npm-check-updates -i -ws
+```

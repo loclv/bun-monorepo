@@ -20,15 +20,15 @@
     "format:fix": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "1.2.2",
-    "@types/bun": "^1.0.4",
-    "concurrently": "^6.2.0"
+    "@biomejs/biome": "1.7.3",
+    "@types/bun": "^1.1.3",
+    "concurrently": "^8.2.2"
   },
   "engines": {
     "npm": "Please use Bun",
     "yarn": "Please use Bun",
     "pnpm": "Please use Bun",
-    "bun": ">=1.0.25"
+    "bun": ">=1.1.9"
   },
   "private": true
 }

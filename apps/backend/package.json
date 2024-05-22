@@ -10,7 +10,7 @@
     "elysia": "latest"
   },
   "devDependencies": {
-    "@types/node": "^18.16.0",
+    "@types/node": "^20.12.12",
     "bun-types": "latest"
   },
   "private": true
