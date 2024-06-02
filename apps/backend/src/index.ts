@@ -5,6 +5,8 @@ const app = new Elysia()
   .get(
     '/products/:id',
     ({ params: { id } }) => {
+      console.log('Product id:', id);
+
       return id;
     },
     {

@@ -3,7 +3,7 @@ import { api } from 'backend-api';
 
 async function getData() {
   // const response = await api['hello-world'].get();
-  const response = await api.products[6].get();
+  const response = await api.products({ id: 617 }).get();
   return response;
 }
 
