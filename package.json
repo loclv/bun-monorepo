@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\" \"cd apps/web && bun --bun run dev\"",
     "w": "concurrently \"cd apps/backend && bun dev\" \"cd apps/web && bun --bun run dev\"",
+    "expo": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun expo\"",
     "android": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun android\" \"cd apps/web && bun --bun run dev\"",
     "ios": "concurrently \"cd apps/backend && bun dev\" \"cd apps/mobile && bun ios\"",
     "gen": "cd packages/backend-api && bun gen",
