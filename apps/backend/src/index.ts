@@ -1,7 +1,7 @@
 import { Elysia, t } from 'elysia';
 
 const app = new Elysia()
-  .get('/hello-world', () => 'Hello World')
+  .get('/hello-world', () => 'Hello World, from 🦊')
   .get(
     '/products/:id',
     ({ params: { id } }) => {
@@ -13,6 +13,8 @@ const app = new Elysia()
       params: t.Object({
         id: t.Numeric(),
       }),
+
+      response: t.Numeric(),
     },
   )
   .listen(3000);
