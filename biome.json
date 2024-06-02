@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.2.2/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
   "files": {
     "ignore": ["node_modules/**/*", ".next"]
   },
@@ -9,7 +9,7 @@
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
-    "indentSize": 2,
+    "indentWidth": 2,
     "lineWidth": 120
   },
   "linter": {
