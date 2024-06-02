@@ -10,15 +10,15 @@
     "seed": "bun run seed.ts"
   },
   "dependencies": {
-    "@elysiajs/eden": "0.7.3",
-    "drizzle-orm": "^0.29.1",
-    "postgres": "^3.4.3"
+    "@elysiajs/eden": "1.0.14",
+    "drizzle-orm": "^0.29.5",
+    "postgres": "^3.4.4"
   },
   "devDependencies": {
     "backend": "workspace:../../apps/backend",
-    "drizzle-kit": "^0.20.7",
-    "elysia": "0.7.15",
-    "typescript": "^5.2.2"
+    "drizzle-kit": "^0.20.18",
+    "elysia": "1.0.22",
+    "typescript": "^5.4.5"
   },
   "private": true
 }
