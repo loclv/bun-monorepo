@@ -19,6 +19,10 @@
       "style": {
         "noUnusedTemplateLiteral": "warn",
         "useNodejsImportProtocol": "off"
+      },
+      "complexity": {
+        "recommended": true,
+        "noForEach": "off"
       }
     }
   },
